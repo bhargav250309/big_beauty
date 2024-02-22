@@ -1542,12 +1542,12 @@ img {
 }
 
 .loreal1:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/bigbeauty/Linn-Young-Just-For-Me-Eau-de-Parfum-for-Women-100-ml-1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("bigbeauty/Linn-Young-Just-For-Me-Eau-de-Parfum-for-Women-100-ml-1.jpg");
     background-size: 105%;
 }
 
 .loreal2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/bigbeauty/Loreal-La-Petite-Eyeshadow-Palette-01-Maximalist-X-3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("bigbeauty/Loreal-La-Petite-Eyeshadow-Palette-01-Maximalist-X-3.jpg");
     background-size: 105%;
 }
 
