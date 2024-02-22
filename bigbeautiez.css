@@ -970,7 +970,7 @@ img {
 /* --------best selling product---------- */
 
 .selling-pr {
-    background-image: url("/bigbeauty/bg.png");
+    background-image: url("bigbeauty/bg.png");
     background-position: center;
     background-position: center;
     height: 80vh;
@@ -1522,7 +1522,7 @@ img {
 }
 
 .loreal1 {
-    background-image: url("/bigbeauty/Linn-Young-Just-For-Me-Eau-de-Parfum-for-Women-100-ml-1.jpg");
+    background-image: url("bigbeauty/Linn-Young-Just-For-Me-Eau-de-Parfum-for-Women-100-ml-1.jpg");
     background-size: 100%;
     background-position: center;
     /* border: 2px solid black; */
@@ -1532,7 +1532,7 @@ img {
 }
 
 .loreal2 {
-    background-image: url("/bigbeauty/Loreal-La-Petite-Eyeshadow-Palette-01-Maximalist-X-3.jpg");
+    background-image: url("bigbeauty/Loreal-La-Petite-Eyeshadow-Palette-01-Maximalist-X-3.jpg");
     background-size: 100%;
     background-position: center;
     /* border: 2px solid black; */
