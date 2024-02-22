@@ -24,8 +24,8 @@ let carousel = [
     // '/bigbeauty/graphic1.png',
     // '/bigbeauty/graphic2.jpg',
     // '/bigbeauty/graphic3.png'
-    '/bigbeauty/Screenshot 2023-12-25 135720.png',
-    '/bigbeauty/Screenshot 2023-12-25 135741.png'
+    'bigbeauty/Screenshot 2023-12-25 135720.png',
+    'bigbeauty/Screenshot 2023-12-25 135741.png'
 ];
 
 let count = 0;
