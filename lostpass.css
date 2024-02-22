@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@600&family=Kanit:wght@700&family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@600&family=Jost:wght@300&family=Kanit:wght@700&family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: var(--head-font);
+}
+
+:root {
+    --main-clr: #dea598;
+    --second-clr: #262626;
+    --black: #1f1f1f;
+    --head-font: 'Jost', Arial, sans-serif;
+    --second-font: 'Roboto Slab', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.453);
+    border-radius: 8px;
+}
+
+.pass-box-out{
+    height: 68vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #e3e6e8;
+}
+.pass-card{
+    height: 55vh;
+    width: 37vw;
+    margin-top: 3vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.pass-card span{
+    color: var(--black);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.pass-card p{
+    color: var(--black);
+    font-weight: bold;
+    text-align: center;
+
+}
+.email-input{
+    height: 7vh;
+    width: 80%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-box-out.eborder .email-input{
+    border: 2px solid var(--black);
+}
+.email-input .e-inp{
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    color: var(--black);
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding-left: 10%;
+    border: none;
+    outline: none;
+}
+
+.pass-card a{
+    background-color: var(--black);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 15vw;
+    position: relative;
+    top: -3vh;
+}
+
+@media only screen and (max-width:700px){
+    .pass-card{
+        width: 70vw;
+    }
+    .pass-card a{
+        width: 30vw;
+    }
+}
