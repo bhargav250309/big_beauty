@@ -2098,9 +2098,10 @@ nav .fas {
         top: -1vh;
     }
 
-    .line h5{
+    .line h5 {
         margin-left: 2vw;
     }
+
     .second-nav-ul3 {
         display: block;
         position: relative;
@@ -2134,6 +2135,7 @@ nav .fas {
     }
 
     .cboxes {
+        position: relative;
         width: 40vw;
     }
 
@@ -2359,4 +2361,324 @@ nav .fas {
         right: -80vw;
     }
 
+    .cboxes {
+        width: 40.3vw;
+    }
+    .cbox{
+        width: 40vw;
+    }
+
+}
+
+@media only screen and (max-width:1050px) {
+    .firstnav {
+        display: none;
+    }
+
+    nav .fas {
+        display: block;
+    }
+
+    .second-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-nav img {
+        height: 8vh;
+        width: 40vw;
+        position: relative;
+        top: -1vh;
+        left: 3vw;
+    }
+
+    .second-nav-ul1 {
+        background: white;
+        position: fixed;
+        top: 0;
+        left: -400px;
+        width: 400px;
+        height: 102vh;
+        padding: 15vh 6vw;
+        z-index: 999;
+        transition: 0.5s;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .second-nav-ul1 li a {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        line-height: 6vh;
+    }
+
+    nav ul .fas {
+        position: absolute;
+        top: 50px;
+        left: 320px;
+        font-size: 1.5rem;
+    }
+
+    .fas2 {
+        position: absolute;
+        left: 5vw;
+        top: 5vh;
+        font-size: 1.5rem;
+    }
+
+    .second-nav-ul1 li a::after {
+        content: '';
+        height: 0px;
+        width: 0px;
+        background: var(--main-clr);
+    }
+
+    .mackup {
+        height: 270px;
+        width: 230px;
+        padding-left: 2vh;
+        padding-top: 2vh;
+        left: 15vw;
+        top: -1vh;
+        z-index: 999;
+    }
+
+    .lips {
+        height: 230px;
+        width: 230px;
+        padding-left: 2vh;
+        padding-top: 2vh;
+        left: 15vw;
+        top: -1vh;
+    }
+
+    .face {
+        height: 440px;
+        width: 230px;
+        padding-left: 2vh;
+        padding-top: 2vh;
+        left: 15vw;
+        top: -1vh;
+        z-index: 3;
+    }
+
+    .eye {
+        height: 270px;
+        width: 230px;
+        padding-left: 2vh;
+        padding-top: 2vh;
+        left: 15vw;
+        top: -1vh;
+    }
+
+    .nail {
+        height: 190px;
+        width: 230px;
+        padding-left: 2vh;
+        padding-top: 2vh;
+        left: 15vw;
+        top: -1vh;
+    }
+
+    .line h5 {
+        margin-left: 2vw;
+    }
+
+    .second-nav-ul3 {
+        display: block;
+        position: relative;
+        height: 1vh;
+        top: 7vh;
+    }
+
+    .second-nav-ul3 li a i {
+        color: rgb(118, 118, 118);
+    }
+
+    .copyr {
+        color: rgb(118, 118, 118);
+        position: relative;
+        top: 12vh;
+        left: -3vw;
+    }
+
+    .searchbox {
+        width: 40vw;
+        right: -80vw;
+    }
+
+    .accountbox {
+        width: 40vw;
+        right: -80vw;
+    }
+
+    .cartbox {
+        width: 40vw;
+        right: -80vw;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .services {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .cboxes {
+        width: 27vw;
+    }
+
+    .catagory-box {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .cbox img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .sliderbtn2{
+        width: 14vw;
+    }
+    .bsproduct{
+        min-width: 23.2vw;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .services{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        padding-bottom: 5vh;
+        height: 17vh;
+    }
+    .truck{
+        width: 40vw;
+    }
+    .cboxes{
+        width: 45vw;
+        height: 10vh;
+    }
+    .cbox i {
+        display: none;
+    }
+    .incbox span {
+        position: relative;
+        left: -6vw;
+    }
+    .catagory-box{
+        gap: 3vh 2vw;
+    }
+    .best-selling{
+        top: -9vh;
+        width: 100%;
+    }
+    .best-selling h1{
+        font-size: 1.9rem;
+        width: 100%;
+    }
+    .best-selling .dm {
+        width: 30vw;
+        top: -1vh;
+    }
+    .best-selling span{
+        top: 0;
+    }
+    .sliderbtn2{
+        width: 28vw;
+    }
+    .bsproduct{
+        min-width: 60vw;
+    }
+    .hotlb::after {
+        width: 9vw;
+    }
+    .bsimg ul{
+        width: 70%;
+        position: relative;
+        left: 10%;
+    }
+    .innaproduct{
+        width: 42vw;
+        margin: 0 1.5vw;
+    }
+    .hlab2::before {
+        width: 7vw;
+    }
+    .dislb1::before{
+        width: 7vw;
+    }
+    .dislb2::before{
+        width: 7vw;
+    }
+    .naimg ul{
+        width: 34vw;
+        left: 3.3vw;
+    }
+    .loreal1, .loreal2{
+        background-repeat: no-repeat;
+        position: relative;
+        top: -15vh;
+        height: 73vh;
+    }
+    .loreal{
+        height: auto;
+        position:relative;
+        top: 31vh; 
+    }
+    .collection1{
+        top: 53vh;
+        width: 83%;
+        padding: 2vh 5vw; 
+    }
+    .companies {
+        grid-gap: 2vh;
+    }
+    .dm3,.dm2{
+        width: 30vw;
+    }
+    .rsv-card1{
+        width: 42vw;
+    }
+    .rsv-container{
+        grid-gap: 2vh;
+        position: relative;
+        left: -3vw;
+    }
+    .inrsv-card ul{
+        width: 36vw;
+        left: 2vw;
+    }
+    .f-three{
+        top: -35vh;
+        left: 54vw;
+    } 
+    .f-four {
+        position: relative;
+        top: -43vh;
+        width: 50%;
+
+    }
+    .searchbox,.accountbox,.cartbox{
+        width: 70vw;
+    }
+    .cheak label input{
+        height: 15px;
+        width: 15px;
+        position: relative;
+        top: 2px;
+    }
+    .cheak label{
+        font-size: 12px;
+    }
+    .cheak a{
+        margin-right: -10px;
+        font-size: 12px;
+        position: relative;
+        top: -0.7vh;
+    }
 }
